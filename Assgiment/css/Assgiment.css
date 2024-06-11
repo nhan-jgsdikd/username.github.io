@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-image: url("/lap2/img/fpt.jpg"); 
+  background-image: url("../img/fpt.jpg"); 
   background-size: 100% 100%;
   padding: 250px;
 }

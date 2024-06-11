@@ -1,0 +1,190 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black ;
+  height: auto;
+}
+
+header {
+  background-image: url("/lap2/img/fpt.jpg"); 
+  background-size: 100% 100%;
+  padding: 250px;
+}
+
+nav.menu {
+  background-color: orangered;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.menu ul li a:hover {
+  background-color: darkorange;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul ul li {
+  display: block;
+}
+
+.menu ul ul li a {
+  color: orangered;
+  padding: 10px 15px;
+}
+
+.menu ul ul li a:hover {
+  background-color: orangered;
+  color: #fff;
+}
+
+.menu ul li:hover > ul {
+  display: block;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.text1, .text2 {
+  display: flex; 
+}
+.text1 .ND, .text2 .ND2 {
+  font-weight: bold;
+  border: 1px solid black ;
+  width: 92%;
+  background-color: #d7fafa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.text2-phai > .ND2{
+  width: 84%;
+}
+.text2-phai ul {
+  list-style: none;
+  padding: 5px;
+  height: 150px;
+}
+.text1 img, .text2 img {
+  width: 47%;
+  margin: 1%;
+}
+
+.dong2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.3s ease; 
+}
+
+.dong2-trai ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dong2 > h2{
+  font-size: 70px ;
+  padding: 20px;
+}
+
+.dong2-trai ul li {
+  font-weight: bold;
+  border: 1px solid black ;
+  background-color: antiquewhite;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+  font-weight: bold;
+  background-color: lightcyan;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-variant: small-caps;
+  border: 1px solid black ;
+}
+.hinh{
+  width: 100%;
+  min-height: 300px;
+  margin-bottom: 10px ;
+}
+.comment{
+  width: 100%;
+  height: auto;
+}
+img{
+  width: 100%;
+  border-radius: 15px ;
+}
+.text1-trai > .ND{
+  transition: transform 0.3s ease; 
+}
+.text1-trai > .ND :hover{
+  transform: translateY(-5px); 
+}
+.text2-phai,
+.text2-trai,
+.dong2 {
+  transition: transform 0.3s ease; 
+}
+
+.text2-phai:hover,
+.text2-trai:hover,
+.dong2:hover {
+  transform: translateY(-30px); 
+}
+.comment{
+  width: 100%;
+  height: 100px;
+}
+.hinh{
+  width: 100%;
+  min-height: auto;
+  margin-bottom: 10px ;
+}
+.comment{
+  width: 100%;
+  height: auto;
+}
+.hinh img{
+  width: 100%;
+}

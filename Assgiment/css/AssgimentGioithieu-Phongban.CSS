@@ -1,0 +1,231 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black ;
+}
+
+header {
+  background-image: url("/Assgiment/img/phong-ban.jpg");
+  background-size: 100% 100%;
+  padding: 250px;
+}
+
+nav.menu {
+  background-color: orangered;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.menu ul li a:hover {
+  background-color: darkorange;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul ul li {
+  display: block;
+}
+
+.menu ul ul li a {
+  color: orangered;
+  padding: 10px 15px;
+}
+
+.menu ul ul li a:hover {
+  background-color: orangered;
+  color: #fff;
+}
+
+.menu ul li:hover > ul {
+  display: block;
+}
+
+.section {
+  margin: 20px 0;
+}
+footer {
+  font-weight: bold;
+  background-color: lightcyan;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-variant: small-caps;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.the-line{
+  background-color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(218, 146, 11);
+}
+.the-line > img{
+  width: 30%;
+}
+
+.the-unto-dau{
+  height: 1000px;
+  padding: 15px;
+  margin: 15px;
+}
+.the-menu > .left:hover,
+.the-menu > .right:hover {
+  
+  transform: translateY(-30px); 
+}
+.the-menu > .left,
+.the-menu > .right {
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease; 
+}
+.the-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.the-menu > .left {
+  flex: 1;
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid #333;
+  padding: 0;
+  margin: 5px;
+  height: 500px;
+}
+
+.the-menu > .right {
+  flex: 1;
+  max-width: 55%;
+  background-color: #ddd9de;
+  border: 3px solid #333;
+  height: 470px;
+}
+.left h2 {
+  background-color: orange;
+  border: 3px solid #000000;
+  font-weight: bold;
+  margin: 20px ;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 3px;
+  width: 90%;
+}
+
+.right p {
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.he-thong{
+  width: 98%;
+  background-color: #001454;
+  height: 1100px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 15px;
+  border: 3px solid #333;
+}
+
+.the-unto-dau{
+  width: 25%;
+  float: left;
+  padding: 3px;
+  margin: 3px;
+}
+.the-unto-dau > p{
+  color: orange;
+}
+.he-thong > .the-unto-trai{
+  width: 30%;
+  float: left;
+  box-shadow: 5px ;
+}
+.he-thong2{
+width: 10%;
+float: left;
+height: 1000px;
+}
+.he-thong h2{
+  text-decoration: underline;
+  color: white;
+}
+.the-unto-trai > p{
+  color: white;
+}
+.the-unto-phai > p{
+  color: white;
+}
+.he-thong h1{
+  color: orange;
+}
+img{
+    padding: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.the-unto-trai, .the-unto-phai {
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.the-unto-trai:hover, .the-unto-phai:hover {
+  transform: translateY(-30px);
+}
+
